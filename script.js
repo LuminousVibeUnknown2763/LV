@@ -747,3 +747,22 @@ bususe.innerHTML = svgIconCheck + 'Apply Changes';
 
 //button.submitset.exist
 coset.appendChild(bususe);
+
+
+
+
+
+//footer.create
+const footer = document.createElement('footer');
+
+//footer.styles
+footer.textContent = '© 2025 LuminousVibe – All rights reserved';
+footer.style.textAlign = 'center';
+footer.style.padding = '20px';
+footer.style.background = 'rgba(255, 255, 255, 0.08)';
+footer.style.border = '1px solid rgba(255, 255, 255, 0.1)';
+footer.style.width = '100%';
+footer.style.color = 'white';
+
+//footer.exist
+document.body.appendChild(footer);
