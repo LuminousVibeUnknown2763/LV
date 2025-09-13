@@ -41,6 +41,14 @@ const svgIconBrush = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16
 </svg>
 `;
 
+//font.dataCollect
+const fontLink = document.createElement('link');
+fontLink.rel = 'stylesheet';
+fontLink.href = 'https://fonts.googleapis.com/css2?family=Fredoka+One&family=Open+Sans&display=swap';
+
+//font.appendHead
+document.head.appendChild(fontLink);
+
 
 
 
@@ -50,7 +58,7 @@ const body = document.body;
 
 //body.styles
 body.style.background = `linear-gradient(to right, ${misGra.left}, ${misGra.right})`;
-body.style.fontFamily = 'Arial, sans-serif';
+body.style.fontFamily = "'Fredoka One', 'Open Sans', sans-serif";
 body.style.width = '97%';
 body.style.display = 'flex';
 body.style.flexDirection = 'column';
@@ -282,7 +290,7 @@ holv.textContent = 'LuminousVibe';
 holv.style.color = 'white';
 holv.style.fontWeight = 'bold';
 holv.style.fontSize = '35px';
-holv.style.fontFamily = 'Copperplate, fantasy';
+
 //h1.lv.exist
 home.appendChild(holv);
 
@@ -297,7 +305,6 @@ hode.textContent = 'Let creativity live on';
 
 //p.homedes.styles
 hode.style.color = 'white';
-hode.style.fontWeight = 'bold';
 hode.style.fontSize = '20px';
 
 //p.homedes.exist
@@ -443,7 +450,6 @@ cocopr1.style.color = 'white';
 cocopr1.style.fontWeight = 'bold';
 cocopr1.style.flexGrow = '1';
 cocopr1.style.flexBasis = '200';
-cocopr1.style.fontFamily = 'Impact, fantasy';
 cocopr1.style.fontSize = '25px';
 
 //contcont.pr1.funtion
@@ -475,7 +481,6 @@ cocopr2.style.color = 'white';
 cocopr2.style.fontWeight = 'bold';
 cocopr2.style.flexGrow = '1';
 cocopr2.style.flexBasis = '200';
-cocopr2.style.fontFamily = 'Impact, fantasy';
 cocopr2.style.fontSize = '25px';
 
 //contcont.pr2.funtion
@@ -507,7 +512,6 @@ cocopr3.style.color = 'white';
 cocopr3.style.fontWeight = 'bold';
 cocopr3.style.flexGrow = '1';
 cocopr3.style.flexBasis = '200';
-cocopr3.style.fontFamily = 'Impact, fantasy';
 cocopr3.style.fontSize = '25px';
 
 //contcont.pr3.funtion
@@ -631,6 +635,7 @@ inus.style.background = 'transparent';
 inus.style.border = 'none';
 inus.style.borderRadius = '0px'
 inus.style.borderBottom = '3px solid white';
+inus.fontFamily = "'Fredoka One', 'Open Sans', sans-serif";
 inus.style.transition = 'all 0.3s ease';
 
 //in.username.hover
